@@ -1,9 +1,7 @@
-# Cookiecutter Data Science
+# Cookiecutter Deep Docker
 
-_A logical, reasonably standardized, but flexible project structure for doing and sharing data science work._
+Custom adaptation of the the OG [drivendata/cookiecutter-data-science](https://github.com/drivendata/cookiecutter-data-science) with some docker inspiration taken from [manifoldai/orbyter-cookiecutter](https://github.com/manifoldai/orbyter-cookiecutter).
 
-
-#### [Project homepage](http://drivendata.github.io/cookiecutter-data-science/)
 
 
 ### Requirements to use the cookiecutter template:
@@ -15,21 +13,11 @@ _A logical, reasonably standardized, but flexible project structure for doing an
 $ pip install cookiecutter
 ```
 
-or
-
-``` bash
-$ conda config --add channels conda-forge
-$ conda install cookiecutter
-```
-
-
 ### To start a new project, run:
 ------------
 
-    cookiecutter https://github.com/drivendata/cookiecutter-data-science
+    cookiecutter https://github.com/drake-smu/cookiecutter-deep-docker
 
-
-[![asciicast](https://asciinema.org/a/244658.svg)](https://asciinema.org/a/244658)
 
 
 ### The resulting directory structure
